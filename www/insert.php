@@ -21,7 +21,7 @@
             }
 
             $sql = "INSERT INTO Person (id, name)
-            VALUES (8, 'Miguel Ramos xxxxxxx');";
+            VALUES (9, 'Miguel Ramos xxxxxxx');";
             
             if ($conn->multi_query($sql) === TRUE) {
             echo "New records created successfully";
